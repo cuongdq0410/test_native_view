@@ -78,7 +78,7 @@ class DetailPage extends StatelessWidget {
       appBar: AppBar(),
       body: const Column(
         children: [
-          Text('Detail Page'),
+          Center(child: Text('Detail Page')),
         ],
       ),
     );
